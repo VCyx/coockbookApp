@@ -7,9 +7,6 @@
     "dev": "run-p front-script server-script",
     "front-script": "npm start --prefix cookbook",
     "server-script": "npm start --prefix server",
-    "install": "run-s install-front install-back",
-    "install-front": "yarn install --prefix cookbook",
-    "install-back": "yarn install --prefix server"
   },
   "dependencies": {
     "yarn-run-all": "^3.1.1"
